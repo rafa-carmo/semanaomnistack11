@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component} from 'react';
+import {useState} from 'react'
+import Routes from './routes'
+import './global.css'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Bem vindo ao React</h2>
-        </div>
-        <p className="App-intro">
-          ohh ohh
-        </p>
-      </div>
-    );
-  }
+
+function App(){
+  return(
+   <Routes />
+
+  )
 }
+
 
 export default App;
